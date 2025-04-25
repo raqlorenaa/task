@@ -1,16 +1,34 @@
-# task_app
+# 📝 Task App
 
-A new Flutter project.
+App de tarefas feito em Flutter com Firebase.
 
-## Getting Started
+## Funcionalidades
 
-This project is a starting point for a Flutter application.
+- Cadastro e login com nome, email e senha
+- Adição, edição e exclusão de tarefas
+- Marcar tarefas como concluídas ou favoritas
+- Visualização de tarefas:
+  - Todas
+  - Concluídas
+  - Pendentes
+  - Favoritas
+- Tema claro/escuro com botão de troca
+- Sincronização offline com Firestore
+- Cada usuário vê apenas suas próprias tarefas (multiusuário)
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologias
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter
+- Firebase Auth
+- Firestore
+- GetX
+- GetStorage
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Como rodar
+
+```bash
+git clone https://github.com/raqlornaa/task.git
+cd task_app
+flutter pub get
+flutter run
+
